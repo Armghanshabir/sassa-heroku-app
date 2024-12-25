@@ -92,7 +92,7 @@ const htmlContent = `<!DOCTYPE html>
 
 <main>
     <section>
-        <p><img src="placeholder-featured-image.jpg" alt="SASSA unemployment grant for R370" class="featured-image"></p>
+        <p><img src="unemployement-grant-sassa-status-check.webp" alt="SASSA unemployment grant for R370" class="featured-image"></p>
         <p>Are you currently facing unemployment and struggling to make ends meet? The South African Social Security Agency (<a href="https://www.sassa.gov.za/" target="_blank">SASSA</a>) provides relief through the Social Relief of Distress (SRD) grant of R370...</p>
     </section>
 </main>
