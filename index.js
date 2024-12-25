@@ -92,8 +92,8 @@ const htmlContent = `<!DOCTYPE html>
 
 <main>
     <section>
-        <p><img src="unemployement-grant-sassa-status-check.webp" alt="SASSA unemployment grant for R350" class="featured-image"></p>
-
+        <p><img src="https://raw.githubusercontent.com/Armghanshabir/sassa-heroku-app/main/unemployement-grant-sassa-status-check.webp" alt="SASSA unemployment grant for R350" class="featured-image"></p>
+    
         <p>Are you currently facing unemployment and struggling to make ends meet? The South African Social Security Agency (<a href="https://www.sassa.gov.za/" target="_blank">SASSA</a>) provides relief through the Social Relief of Distress (SRD) grant of R370. This temporary grant is designed to assist individuals who have no other means of financial support. In this article, we will dive deep into the details of the unemployment SASSA grant, explore how you can check your SASSA status, and provide tips to ensure your application process is seamless. Let’s ensure you have the information you need to access this vital support.</p>
     </section>
 
