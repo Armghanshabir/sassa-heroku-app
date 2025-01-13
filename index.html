@@ -1,10 +1,3 @@
-const http = require('http');
-
-const hostname = '0.0.0.0';
-const port = process.env.PORT || 3000;
-
-// The HTML content
-const htmlContent = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -94,7 +87,7 @@ const htmlContent = `<!DOCTYPE html>
     <section>
         <p><img src="https://raw.githubusercontent.com/Armghanshabir/sassa-heroku-app/main/unemployement-grant-sassa-status-check.webp" alt="SASSA unemployment grant for R350" class="featured-image"></p>
     
-        <p>Are you currently facing unemployment and struggling to make ends meet? The South African Social Security Agency (<a href="https://www.sassa.gov.za/" target="_blank">SASSA</a>) provides relief through the Social Relief of Distress (SRD) grant of R370. This temporary grant is designed to assist individuals who have no other means of financial support. In this article, we will dive deep into the details of the unemployment SASSA grant, explore how you can check your SASSA status, and provide tips to ensure your application process is seamless. Let’s ensure you have the information you need to access this vital support.</p>
+        <p>Are you currently facing unemployment and struggling to make ends meet? The South African Social Security Agency (SASSA) provides relief through the Social Relief of Distress (SRD) grant of R370. This temporary grant is designed to assist individuals who have no other means of financial support. In this article, we will dive deep into the details of the unemployment SASSA grant, explore how you can check your SASSA status, and provide tips to ensure your application process is seamless. Let’s ensure you have the information you need to access this vital support.</p>
     </section>
 
     <section>
@@ -122,7 +115,7 @@ const htmlContent = `<!DOCTYPE html>
         <h2>How to Apply for the SASSA R370 Grant</h2>
         <p>Applying for the unemployment SASSA grant is straightforward. Follow these steps:</p>
         <ol>
-            <li>Visit the SASSA SRD Website: Head to the official website to start your application.</li>
+            <li>Visit the <a href="https://srd.sassa.gov.za/" target="_blank">SASSA SRD Website</a>: Head to the official website to start your application.</li>
             <li>Provide Personal Information: Enter your ID number, contact details, and bank account information.</li>
             <li>Agree to Declarations: Confirm that you meet the eligibility criteria.</li>
             <li>Submit Application: Complete the form and wait for confirmation.</li>
@@ -132,7 +125,7 @@ const htmlContent = `<!DOCTYPE html>
 
     <section>
         <h2>SASSA Status Check: Tracking Your Application</h2>
-        <p>Once you’ve applied for the grant, it’s crucial to monitor your application status. The SASSA status check system allows you to track updates in real time. To perform a status check, visit <a href="https://sassagrantcheck.co.za/" target="_blank">SASSA Status Check</a> and follow these steps:</p>
+        <p>Once you’ve applied for the grant, it’s crucial to monitor your application status. The SASSA status check system allows you to track updates in real time. Follow these steps to perform <a href="https://sassagrantcheck.co.za/" target="_blank">SASSA R370 status check</a>:</p>
         <ul>
             <li>Enter your ID number and cellphone number.</li>
             <li>Click on "Submit."</li>
@@ -165,7 +158,7 @@ const htmlContent = `<!DOCTYPE html>
             <li>Bank Details Verification: Ensure the banking information provided matches the applicant’s ID.</li>
         </ul>
 
-For updates and detailed solutions, visit <a href="https://sassagrant.s3.eu-north-1.amazonaws.com/SASSA+Updates/index.html" target="_blank">SASSA’s Latest Updates</a>.
+If you have any queries, <a href="https://sassacontact.netlify.app/" target="_blank">contact SASSA</a> directly.
     </section>
     
     <section>
@@ -176,18 +169,8 @@ For updates and detailed solutions, visit <a href="https://sassagrant.s3.eu-nort
 </main>
 
 <footer>
-    <p>&copy; 2024 Insight Aura. All rights reserved.</p>
+    <p>&copy; 2025 Insight Aura. All rights reserved.</p>
 </footer>
 
 </body>
-</html>`;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
-  res.end(htmlContent);
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+</html>
